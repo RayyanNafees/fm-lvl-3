@@ -53,12 +53,12 @@ body {
 
 main {
   background-color: var(--white);
-  padding: var(--space-md);
+  min-width: min-content;
+  max-width: min-content;
 }
 
 #tag {
   background-color: var(--primary);
-  width: max-content;
 }
 
 #title,
